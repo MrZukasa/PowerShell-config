@@ -1,0 +1,22 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Francesco
+	email = fra.boasso@gmail.com
+[core]
+	editor = \"D:\\Users\\f93405b\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+	longpaths = true
+[alias]
+	graph = log --all --decorate --oneline --graph
+	d = diff
+	co = checkout
+	ci = commit -m
+	ca = commit -am
+	st = status
+	br = branch
+	open = "!hub browse"
+[hub]
+	protocol = https
