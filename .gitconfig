@@ -5,7 +5,7 @@
 	required = true
 [user]
 	name = Francesco
-	email = fra.boasso@gmail.com
+	email = [email]
 [core]
 	editor = \"D:\\Users\\f93405b\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
 	longpaths = true
