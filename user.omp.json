@@ -88,7 +88,7 @@
           "type": "node"
         },
         {
-          "background": "#40c4ff",
+          "background": "#1297d4",
           "foreground": "#ffffff",
           "invert_powerline": true,
           "leading_diamond": " \ue0b6",
