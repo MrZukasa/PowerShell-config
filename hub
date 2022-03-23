@@ -1,4 +1,4 @@
 github.com:
-- user: [username]
+- user: MrZukasa
   oauth_token: [token generated from https://github.com/settings/tokens]
   protocol: https
