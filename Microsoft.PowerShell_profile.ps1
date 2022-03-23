@@ -9,7 +9,7 @@ Import-Module -Name Terminal-Icons
 
 #oh-my-posh
 Import-Module oh-my-posh
-oh-my-posh --init --shell pwsh --config 'D:\Users\f93405b\.config\powershell\user.omp.json' | Invoke-Expression
+oh-my-posh --init --shell pwsh --config '~\user.omp.json' | Invoke-Expression
 
 #Alias
 Set-Alias ll ls
