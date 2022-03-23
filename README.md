@@ -5,3 +5,4 @@ I'm sorry for the inconvenience. GitHub deprecated its Authorizations API, which
 
 Until we fix this in hub, the solution is to generate a Personal Access Token (with at least repo scope) at https://github.com/settings/tokens and paste it instead of the password.
 ```
+hub file must be placed in ~\.config folder
