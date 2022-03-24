@@ -12,6 +12,7 @@ In order to have a more faster command line and a more felxible tools, we need t
 ![Appearance](https://i.ibb.co/mCNM4Sc/Capture.png)
 
 * Now it is time for the Acrylic opacity
+
 ![Opacity](https://i.ibb.co/Wgd1pW9/Capture.png)
 
 We want to use our best bash command line in our windows terminal, so we need to install [PowerShell](https://github.com/PowerShell/PowerShell/releases/tag/v7.2.2). We can also install it from the Windows Store.
