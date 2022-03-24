@@ -1,4 +1,5 @@
 #PowerShell Oh-my-posh setup
+
 First of all, we need to use a more clear and readable font just like Nerd Font [Hack](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip) just download it form the [repository](https://github.com/ryanoasis/nerd-fonts) of [Ryan l Mclntyre](https://github.com/ryanoasis)😎
 
 In order to have a more faster command line and a more felxible tools, we need to install also the [Windows Terminal](https://github.com/microsoft/terminal) which can be downloaded also from the Microsoft Store
@@ -12,6 +13,11 @@ In order to have a more faster command line and a more felxible tools, we need t
 
 * Now it is time for the Acrylic opacity
 ![Opacity](https://i.ibb.co/Wgd1pW9/Capture.png)
+
+We want to use our best bash command line in our windows terminal, so we need to install [PowerShell](https://github.com/PowerShell/PowerShell/releases/tag/v7.2.2). We can also install it from the Windows Store.
+Now set it as default profile in the terminal just like so:
+![Default](https://i.ibb.co/ggnmG95/Cattura.png)
+
 
 ### Install [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
 ```
