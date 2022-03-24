@@ -4,8 +4,14 @@ First of all, we need to use a more clear and readable font just like Nerd Font 
 In order to have a more faster command line and a more felxible tools, we need to install also the [Windows Terminal](https://github.com/microsoft/terminal) which can be downloaded also from the Microsoft Store
 
 ##### Configure the Terminal
-First thing to do is to set the 'acrylic' of the terminal to ON
+* First thing to do is to set the 'acrylic' of the terminal to ON
 ![Acrylic](https://i.ibb.co/412Dkhc/Capture.png)
+
+* Then we can set the Apperance as Color Scheme and Font Face
+![Appearance](https://i.ibb.co/mCNM4Sc/Capture.png)
+
+* Now it is time for the Acrylic opacity
+![Opacity](https://i.ibb.co/Wgd1pW9/Capture.png)
 
 ### Install [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
 ```
