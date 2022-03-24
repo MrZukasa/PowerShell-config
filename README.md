@@ -1,3 +1,12 @@
+#PowerShell Oh-my-posh setup
+First of all, we need to use a more clear and readable font just like Nerd Font [Hack](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip) just download it form the [repository](https://github.com/ryanoasis/nerd-fonts) of [Ryan l Mclntyre](https://github.com/ryanoasis)😎
+
+In order to have a more faster command line and a more felxible tools, we need to install also the [Windows Terminal](https://github.com/microsoft/terminal) which can be downloaded also from the Microsoft Store
+
+##### Configure the Terminal
+First thing to do is to set the 'acrylic' of the terminal to ON
+![Acrylic](https://i.ibb.co/412Dkhc/Capture.png)
+
 ### Install [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
 ```
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
