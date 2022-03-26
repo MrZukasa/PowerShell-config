@@ -11,7 +11,7 @@ In order to have a more faster command line and a more felxible tools, we need t
 2. Then we can set the Apperance as Color Scheme and Font Face
 ![Appearance](https://i.ibb.co/mCNM4Sc/Capture.png)
 
-3. Now it is time for the Acrylic opacity
+3. Now it is time for the Acrylic opacity\s\s
 ![Opacity](https://i.ibb.co/Wgd1pW9/Capture.png)
 
 4. We want to use our best bash command line in our windows terminal, so we need to install [PowerShell](https://github.com/PowerShell/PowerShell/releases/tag/v7.2.2). We can also install it from the Windows Store.
