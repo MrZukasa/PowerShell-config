@@ -34,12 +34,12 @@ In order to open our shell with all the aliases an the stuff that we need to loa
 
 #### Install all Dependencies that we miss 😊
 1. **_Install [Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh)_**
-   ```
+   ```PowerShell
    Install-Module posh-git -SCope CurrentUser -Force
    Install-Module oh-my-posh -Scope CurrentUser -Force
    ```
    *Then open a new shell instance*
-   ```
+   ```PowerShell
    Import-Module posh-git
    Import-Moule oh-my-posh
    Set-PoshPrompt Paradox
@@ -50,37 +50,37 @@ In order to open our shell with all the aliases an the stuff that we need to loa
 <hr>
 
 2. ***Install [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)***
-   ```
+   ```PowerShell
    Install-Module -Name Terminal-Icons -Repository PSGallery -Force
    Import-Module Terminal-Icons
    ```
 <hr>
 
 3. ***Install [Z](https://github.com/rupa/z)***
-   ```
+   ```PowerShell
    Install-Module -Name z -Force
    ```
 <hr>
 
 4. ***Install [PSReadLine](https://github.com/PowerShell/PSReadLine)***
-   ```
+   ```PowerShell
    Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
    ```
    _reboot terminal_
-   ```
+   ```PowerShell
    Set-PSReadLineOption -PredictionSource History
    Set-PSReadLineOption -PredictionViewStyle ListView
    ```
 <hr>
 
 5. ***Install [Commitizen](https:/m/github.com/commitizen/cz-cli)***
-   ```
+   ```PowerShell
    npm install -g commitizen
    ```
 <hr>
 
 6. ***Install [Hub Browse](https://github.com/github/hub)***
-   ```
+   ```PowerShell
    choco install hub
    ```
    The token that we use as password for hub, can be generated from [here](https://github.com/settings/tokens)
@@ -88,7 +88,7 @@ In order to open our shell with all the aliases an the stuff that we need to loa
 <hr>
 
 7. ***Install [Sudo](https://community.chocolatey.org/packages/Sudo)***
-   ```
+   ```PowerShell
    choco install sudo
    ```
 <hr>
