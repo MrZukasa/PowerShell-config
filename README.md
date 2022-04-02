@@ -27,6 +27,7 @@ In order to have a more faster command line and a more felxible tools, we need t
 ![modded](https://i.ibb.co/HK78bRs/Cattura.png)
 
 8. Install [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) and add it to the $PATH
+> also mind to import the init.vim in the correct place
 
 ## Make a user profile and set command aliases 🐱‍💻
 In order to open our shell with all the aliases an the stuff that we need to load each time, we need to make sure that all this command are written in the `$PROFILE.CurrentUserCurentHost` file, which is [this](https://github.com/MrZukasa/PowerShell-config/blob/main/Documents/PowerShell/Microsoft.PowerShell_profile.ps1) file.
