@@ -7,23 +7,29 @@ In order to have a more faster command line and a more felxible tools, we need t
 
 ## Configure the Terminal 🧾
 1. First thing to do is to set the 'acrylic' of the terminal to ON
+
 ![Acrylic](https://i.ibb.co/412Dkhc/Capture.png)
 
 2. Then we can set the Apperance as Color Scheme and Font Face
+
 ![Appearance](https://i.ibb.co/mCNM4Sc/Capture.png)
 
 3. Now it is time for the Acrylic opacity  
+
 ![Opacity](https://i.ibb.co/Wgd1pW9/Capture.png)
 
 4. We want to use our best bash command line in our windows terminal, so we need to install [PowerShell](https://github.com/PowerShell/PowerShell/releases/tag/v7.2.2). We can also install it from the Windows Store.
 
 5. Now set it as default profile in the terminal just like so:  
+
 ![Default](https://i.ibb.co/ggnmG95/Cattura.png)
 
-6. Now we want to import some changes in our environment setting.json, and to do that we simply click on the _'gear'_ in the bottom left corner of the settings menù  
+6. Now we want to import some changes in our environment setting.json, and to do that we simply click on the _'gear'_ in the bottom left corner of the settings menù
+
 ![gear](https://i.ibb.co/hgDLdvx/Cattura.png)
 
-1. In the JSON search for the '_One Half Dark_' theme that we just set before and duplicate it, change the name of the duplicated one by adding _'(modded)'_ then set this background: _#001B26_ then save it and load in the Appearance menù the new modded theme.  
+1. In the JSON search for the '_One Half Dark_' theme that we just set before and duplicate it, change the name of the duplicated one by adding _'(modded)'_ then set this background: _#001B26_ then save it and load in the Appearance menù the new modded theme.
+
 ![modded](https://i.ibb.co/HK78bRs/Cattura.png)
 
 8. Install [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) and add it to the $PATH
