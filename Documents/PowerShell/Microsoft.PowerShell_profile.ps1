@@ -14,6 +14,7 @@ oh-my-posh --init --shell pwsh --config '~\user.omp.json' | Invoke-Expression
 #Alias
 Set-Alias ll ls
 Set-Alias g git
+Set-Alias cc cls
 
 #Utilities
 function which ($command) {
