@@ -1,4 +1,4 @@
-###### *Remember to install [Laragon](https://github.com/leokhoa/laragon) and add in the $PATH all the directories of the dependencies that we need to use in our workflow!!* 
+###### *Remember to install [Laragon](https://github.com/leokhoa/laragon) and add in the $PATH all the directories of the dependencies that we need to use in our workflow!!*
 
 # PowerShell Oh-my-posh setup 🍻
 First of all, we need to use a more clear and readable font just like Nerd Font [Hack](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip) just download it form the [repository](https://github.com/ryanoasis/nerd-fonts) of [Ryan l Mclntyre](https://github.com/ryanoasis)😎
@@ -14,13 +14,13 @@ In order to have a more faster command line and a more felxible tools, we need t
 
 ![Appearance](https://i.ibb.co/mCNM4Sc/Capture.png)
 
-3. Now it is time for the Acrylic opacity  
+3. Now it is time for the Acrylic opacity
 
 ![Opacity](https://i.ibb.co/Wgd1pW9/Capture.png)
 
 4. We want to use our best bash command line in our windows terminal, so we need to install [PowerShell](https://github.com/PowerShell/PowerShell/releases/tag/v7.2.2). We can also install it from the Windows Store.
 
-5. Now set it as default profile in the terminal just like so:  
+5. Now set it as default profile in the terminal just like so:
 
 ![Default](https://i.ibb.co/ggnmG95/Cattura.png)
 
@@ -65,6 +65,9 @@ In order to run it siply type `tig` in the repository folder.
    I've allready made a file with all my needed customization and we just need to copy that file in our `.\config\powershell` folder.
    The [file](https://github.com/MrZukasa/PowerShell-config/blob/main/.config/powershell/user.omp.json) must be called `[username].omp.json`
 
+   **_Another way to install [Oh-My-Posh Theme](https://ohmyposh.dev/docs/themes)_**
+   just type `Get-PoshThemes` then be sure to set which theme you wanna use from your directory (the command gonna tell you where he place all the themes) and add it in the `.Documents\PowerShell\Microsoft.PowerShell_profile.ps1` with the line that the command tell you to add! super easy 🔥
+
 2. ***Install [Terminal-Icons](https://github.com/devblackops/Terminal-Icons)***
    ```PowerShell
    Install-Module -Name Terminal-Icons -Repository PSGallery -Force
@@ -90,7 +93,7 @@ In order to run it siply type `tig` in the repository folder.
    ```PowerShell
    npm install -g commitizen
    ```
-   To [use](https://youtu.be/qKpY7t5m35k?t=617) it just go for `git cz` 🎇 
+   To [use](https://youtu.be/qKpY7t5m35k?t=617) it just go for `git cz` 🎇
 
 6. ***Install [Hub Browse](https://github.com/github/hub)***
    ```PowerShell
@@ -98,12 +101,7 @@ In order to run it siply type `tig` in the repository folder.
    ```
    The token that we use as password for hub, can be generated from [here](https://github.com/settings/tokens)
 
-7. ***Install [Sudo](https://community.chocolatey.org/packages/Sudo)***
-   ```PowerShell
-   choco install sudo
-   ```
-
-8. Another good tool is the utility `which` that allow the user to find the path of a specified file. This script is allready available in the file, but in case you need it, here it is
+7. Another good tool is the utility `which` that allow the user to find the path of a specified file. This script is allready available in the file, but in case you need it, here it is
    ```PowerShell
    function which ($command){
       Get-Command --Name $command -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
