@@ -8,7 +8,7 @@ Set-PSReadLineOption -BellStyle None
 Import-Module -Name Terminal-Icons
 
 #oh-my-posh
-Import-Module oh-my-posh
+#Import-Module oh-my-posh this is not needed anymore in version 2
 #oh-my-posh --init --shell pwsh --config 'C:\Users\frabo\.config\powershell\frabo.omp.json' | Invoke-Expression
 #oh-my-posh prompt init pwsh --config C:\Users\frabo\AppData\Local\oh-my-posh\themes/negligible.omp.json | Invoke-Expression
 #oh-my-posh prompt init pwsh --config C:\Users\frabo\AppData\Local\oh-my-posh\themes/peru.omp.json | Invoke-Expression
